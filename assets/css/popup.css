@@ -40,7 +40,7 @@
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
-input[type=password]{
+input[type=text]{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
