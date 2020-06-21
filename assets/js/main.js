@@ -21,7 +21,7 @@ $(".js-first").on("click",()=> {
 $(".submit").on("click",()=> {
 	var pass = document.getElementById("pass").value;
 	switch(pass){
-		case "test1":
+		case "chemical twins":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-1").toggleClass("active");
 			setTimeout(() => {   
@@ -32,16 +32,16 @@ $(".submit").on("click",()=> {
 			$(".loc-1").toggleClass("active"); $(".loc-2").toggleClass("active");
 			$(".msg-1").toggleClass("active"); $(".msg-2").toggleClass("active"); }, 10000);
 			break;
-		case "test2":
+		case "dark temptation":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-2").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-2").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-2").toggleClass("active"); $(".msg-3").toggleClass("active"); }, 5200);
+			$(".msg-2").toggleClass("active"); $(".msg-3").toggleClass("active"); }, 5300);
 			break;
-		case "test3":
+		case "david":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-3").toggleClass("active");
 			setTimeout(() => {   
@@ -52,16 +52,16 @@ $(".submit").on("click",()=> {
 			$(".loc-2").toggleClass("active"); $(".loc-3").toggleClass("active");
 			$(".msg-3").toggleClass("active"); $(".msg-4").toggleClass("active"); }, 10000);
 			break;
-		case "test4":
+		case "kfc":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-4").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-4").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-4").toggleClass("active"); $(".msg-5").toggleClass("active"); }, 5200);
+			$(".msg-4").toggleClass("active"); $(".msg-5").toggleClass("active"); }, 5300);
 			break;
-		case "test5":
+		case "maggie":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-5").toggleClass("active");
 			setTimeout(() => {   
@@ -72,16 +72,16 @@ $(".submit").on("click",()=> {
 			$(".loc-3").toggleClass("active"); $(".loc-4").toggleClass("active");
 			$(".msg-5").toggleClass("active"); $(".msg-6").toggleClass("active"); }, 10000);
 			break;
-		case "test6":
+		case "litt up":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-6").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-6").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-6").toggleClass("active"); $(".msg-7").toggleClass("active"); }, 5200);
+			$(".msg-6").toggleClass("active"); $(".msg-7").toggleClass("active"); }, 5300);
 			break;
-		case "test7":
+		case "fourth":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-7").toggleClass("active");
 			setTimeout(() => {   
@@ -92,16 +92,16 @@ $(".submit").on("click",()=> {
 			$(".loc-4").toggleClass("active"); $(".loc-5").toggleClass("active");
 			$(".msg-7").toggleClass("active"); $(".msg-8").toggleClass("active"); }, 10000);
 			break;
-		case "test8":
+		case "vodka":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-8").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-8").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-8").toggleClass("active"); $(".msg-9").toggleClass("active"); }, 5200);
+			$(".msg-8").toggleClass("active"); $(".msg-9").toggleClass("active"); }, 5300);
 			break;
-		case "test9":
+		case "kittens":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-9").toggleClass("active");
 			setTimeout(() => {   
@@ -112,16 +112,16 @@ $(".submit").on("click",()=> {
 			$(".loc-5").toggleClass("active"); $(".loc-6").toggleClass("active");
 			$(".msg-9").toggleClass("active"); $(".msg-10").toggleClass("active"); }, 10000);
 			break;
-		case "test10":
+		case "photoshop":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-10").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-10").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-10").toggleClass("active"); $(".msg-11").toggleClass("active"); }, 5200);
+			$(".msg-10").toggleClass("active"); $(".msg-11").toggleClass("active"); }, 5300);
 			break;
-		case "test11":
+		case "buttershock":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-11").toggleClass("active");
 			setTimeout(() => {   
@@ -132,16 +132,16 @@ $(".submit").on("click",()=> {
 			$(".loc-6").toggleClass("active"); $(".loc-7").toggleClass("active");
 			$(".msg-11").toggleClass("active"); $(".msg-12").toggleClass("active"); }, 10000);
 			break;
-		case "test12":
+		case "jack of diamonds":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-12").toggleClass("active");
 			setTimeout(() => {   
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-12").toggleClass("active");
 			}, 5000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".msg-12").toggleClass("active"); $(".msg-13").toggleClass("active"); }, 5200);
+			$(".msg-12").toggleClass("active"); $(".msg-13").toggleClass("active"); }, 5300);
 			break;
-		case "test13":
+		case "three":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".toast-13").toggleClass("active");
 			setTimeout(() => {   
@@ -152,7 +152,7 @@ $(".submit").on("click",()=> {
 			$(".loc-7").toggleClass("active"); $(".loc-1").toggleClass("active");
 			$(".msg-13").toggleClass("active"); $(".msg-14").toggleClass("active"); }, 10000);
 			break;
-		case "test14":
+		case "constant":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
 			$(".toast").toggleClass("active"); $(".toast-chibi").toggleClass("active"); $(".last").toggleClass("active");
 			break;
